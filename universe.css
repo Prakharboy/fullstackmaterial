@@ -1,0 +1,170 @@
+
+    body{
+
+        background-color: rgba(15, 3, 3, 0.699);
+    }
+    h3,h1,h2,p
+    {
+        color: white;
+        
+    }
+   
+
+    a{
+        color: white;
+    }
+   #top2 > p
+    {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      
+    }
+
+body > #parentgrid
+{
+    
+        
+    
+        background-size: auto auto;
+        
+        
+        
+    }
+
+
+
+body > #parentgrid > #middleleft
+  {
+      background-image: url("img/space1.jpg");
+      background-size: auto auto;
+
+  }
+  body > #parentgrid > #middleright
+  {
+      background-color:black;
+      text-decoration: none;
+     
+
+  }
+  
+  body > #parentgrid > #middleright > #mr1
+  {
+      
+      background-image: url("img/space1.jpg");
+     
+  }
+  body > #parentgrid > #middleright > #mr2
+  {
+      
+      background-image: url("img/space1.jpg");
+      
+  }
+  body > #parentgrid > #middleright > #mr3
+  {
+      
+      background-image: url("img/space1.jpg");
+  }
+  
+  body > #top2 > h1,h2,h3
+
+{
+
+    font-family: 'Akronim';font-size: 22px;
+}  body > #top1 > h3
+  {
+      color: white;
+  }
+
+   body > #top2
+    {   
+        
+        background-image: url("img/space1.jpg");
+   
+        background-size: 1300px 500px;
+        background-repeat: no-repeat;
+        
+        font: 1em sans-serif;
+        
+       
+    }
+  
+
+  
+body > #top1
+{  
+    background-color: black;
+    border: 2px solid white;
+    
+    position: fixed;
+  
+    
+}
+body > #top2 >h1
+{
+    color:whitesmoke;
+    text-shadow: 3px gold;
+    text-align: center;
+}
+
+ h1
+ {
+     color: white;
+     font-family: 'Akronim';font-size: 22px;
+     
+ } 
+
+  body > #top1 > nav>a
+  {
+
+      text-decoration: none;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color:lightgrey;
+  }
+  body > #top1 > nav
+  {
+      float:right;
+      border: 2px solid white;
+      margin-bottom: 10px;
+
+  }
+
+  body > #top1 > nav > a:hover
+  {
+      color: red;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+  }
+
+  body > footer{
+
+
+      height:200px;
+      width:100%;
+      
+        
+  }
+  body >footer >#f1
+  { background-image: url("img/space1.jpg");
+
+  }
+  body >footer >#f2
+  {
+    background-image: url("img/space1.jpg");
+
+
+  }
+  body >footer >#f3
+  {
+    background-image: url("img/space1.jpg");
+
+  }
+  body >footer >#f4
+  {
+    background-image: url("img/space1.jpg");
+    background-size: 400px 200px;
+  }
+
+
+    
