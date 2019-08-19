@@ -1,12 +1,25 @@
 
-    body{
+   li{
 
-        background-color: rgba(15, 3, 3, 0.699);
+    display: block;
+    display: inline;
+   }
+    body{
+        
+        background-image: url(../img/space1.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;   
+        background-attachment: fixed;    
+                 
     }
     h3,h1,h2,p
     {
         color: white;
         
+    }
+    button
+    {
+        color:red;
     }
    
 
@@ -21,22 +34,17 @@
       
     }
 
-body > #parentgrid
-{
-    
-        
-    
-        background-size: auto auto;
-        
-        
-        
+
+    .rowsetting footer
+    {
+        margin-top: 40px;
     }
 
 
 
 body > #parentgrid > #middleleft
   {
-      background-image: url("img/space1.jpg");
+      
       background-size: auto auto;
 
   }
@@ -51,19 +59,21 @@ body > #parentgrid > #middleleft
   body > #parentgrid > #middleright > #mr1
   {
       
-      background-image: url("img/space1.jpg");
+      background-image: url(../img/space1.jpg);
+      background-size: 400px 400px;
      
   }
   body > #parentgrid > #middleright > #mr2
   {
       
-      background-image: url("img/space1.jpg");
+      background-image: url("../img/space1.jpg");
+      background-size: 400px 400px;
       
   }
   body > #parentgrid > #middleright > #mr3
   {
       
-      background-image: url("img/space1.jpg");
+      background-image: url("../img/space1.jpg");
   }
   
   body > #top2 > h1,h2,h3
@@ -79,9 +89,9 @@ body > #parentgrid > #middleleft
    body > #top2
     {   
         
-        background-image: url("img/space1.jpg");
+        background-image: url("../img/space1.jpg");
    
-        background-size: 1300px 500px;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         
         font: 1em sans-serif;
@@ -89,17 +99,10 @@ body > #parentgrid > #middleleft
        
     }
   
+  
 
   
-body > #top1
-{  
-    background-color: black;
-    border: 2px solid white;
-    
-    position: fixed;
-  
-    
-}
+
 body > #top2 >h1
 {
     color:whitesmoke;
@@ -114,7 +117,7 @@ body > #top2 >h1
      
  } 
 
-  body > #top1 > nav>a
+  body > #top1 > #hello>a
   {
 
       text-decoration: none;
@@ -122,15 +125,16 @@ body > #top2 >h1
       font-size: 20px;
       color:lightgrey;
   }
-  body > #top1 > nav
+  body > #top1 > .navbar
   {
       float:right;
       border: 2px solid white;
       margin-bottom: 10px;
+      position: fixed;
 
   }
 
-  body > #top1 > nav > a:hover
+  body > #top1 > .navbar > a:hover
   {
       color: red;
       font-family: 'Times New Roman', Times, serif;
@@ -146,23 +150,23 @@ body > #top2 >h1
         
   }
   body >footer >#f1
-  { background-image: url("img/space1.jpg");
+  { background-image: url("../img/space1.jpg");
 
   }
   body >footer >#f2
   {
-    background-image: url("img/space1.jpg");
+    background-image: url("../img/space1.jpg");
 
 
   }
   body >footer >#f3
   {
-    background-image: url("img/space1.jpg");
+    background-image: url("../img/space1.jpg");
 
   }
   body >footer >#f4
   {
-    background-image: url("img/space1.jpg");
+    background-image: url("../img/space1.jpg");
     background-size: 400px 200px;
   }
 

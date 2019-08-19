@@ -46,7 +46,7 @@ body > #parentgrid >p
 
 body > #parentgrid > #middleleft
   {
-      background-image: url("img/space1.jpg");
+      background-image: url("../img/space1.jpg");
       background-size: auto auto;
       text-decoration: none;
 grid-column: 50%;
@@ -68,20 +68,20 @@ flex-direction: column;
   {
       flex:1;
       order: 1;
-      background-image: url("img/space1.jpg");
+      background-image: url("../img/space1.jpg");
   }
   body > #parentgrid > #middleright > #mr2
   {
       flex:1;
       order:2;
-      background-image: url("img/space1.jpg");
+      background-image: url("../img/space1.jpg");
       
   }
   body > #parentgrid > #middleright > #mr3
   {
       flex:1;
       order:3;
-      background-image: url("img/space1.jpg");
+      background-image: url("../img/space1.jpg");
   }
   body > #top2 >header > h1,h2
   {
@@ -100,7 +100,7 @@ flex-direction: column;
    body > #top2
     {   display: flex;
         flex-direction: column;
-        background-image: url("img/space1.jpg");
+        background-image: url("../img/space1.jpg");
       height: 400px;
       width: 100%;
       margin:auto;
@@ -184,26 +184,26 @@ body > #top2 >h1
         
   }
   body >footer >#f1
-  { background-image: url("img/space1.jpg");
+  { background-image: url("../img/space1.jpg");
   grid-area: auto;
 
   }
   body >footer >#f2
   {
-    background-image: url("img/space1.jpg");
+    background-image: url("../img/space1.jpg");
     grid-area: auto;
 
 
   }
   body >footer >#f3
   {
-    background-image: url("img/space1.jpg");
+    background-image: url("../img/space1.jpg");
     grid-area: auto;
 
   }
   body >footer >#f4
   {
-    background-image: url("img/space1.jpg");
+    background-image: url("../img/space1.jpg");
          grid-area: auto;
   }
 
