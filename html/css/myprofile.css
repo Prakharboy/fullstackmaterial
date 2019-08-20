@@ -2,13 +2,14 @@
     body{
         margin: 0;
         padding: 0;
-        background-color: rgba(15, 3, 3, 0.699);
+        background-color: black;
     }
     h3,h1,h2,p
     {
         color: white;
         
     }
+ 
    
 
     a{
@@ -51,10 +52,7 @@ body > #parentgrid > #middleleft
       text-decoration: none;
 grid-column: 50%;
 
-    
-
-
-  }
+    }
   body > #parentgrid > #middleright
   {
       background-color:black;

@@ -1,17 +1,45 @@
 
-   li{
 
-    display: block;
-    display: inline;
-   }
-    body{
+    #mainbarr
+    {
         
-        background-image: url(../img/space1.jpg);
-        background-size: 100% 100%;
-        background-repeat: no-repeat;   
-        background-attachment: fixed;    
-                 
+        background-color: rgb(27, 14, 14);
+        z-index: 999;
+        border: 3px solid grey;
+        padding-top: 0;
+        position: fixed;
+        
     }
+
+    .btn
+    {
+        background-color: grey;
+        margin: auto;
+        border: 2px solid white black;
+    }
+
+
+    ol.carousel-indicators li.active {
+        background:grey;
+        border:3px solid red;
+        font-size: 40px;
+    
+      }
+      ol.carousel-indicators li {
+        background:grey;
+        border:3px solid black;
+        font-size:30px;
+    
+      }
+
+
+    .carousel-inner > .item > img {
+        width:640px;
+        height:360px;
+        margin: 0 auto;
+      }
+      
+      
     h3,h1,h2,p
     {
         color: white;
@@ -31,7 +59,7 @@
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-      
+        
     }
 
 
@@ -170,5 +198,9 @@ body > #top2 >h1
     background-size: 400px 200px;
   }
 
+  #mainbarr
+  {
+      transform: translate(-70px,-55px);
+  }
 
     
