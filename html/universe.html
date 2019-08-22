@@ -2,6 +2,26 @@
 <html lang="en">
 <head>                                <!--responsive using bootstrap-->
   
+
+  <script>
+      function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        document.getElementById('timerr').innerHTML ="ageofuniverse=13billionyears"+
+        h + ":" + m + ":" + s;
+        var t = setTimeout(startTime, 500);
+      }
+      function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+      }
+      </script>
+
+
 <title>   universe&we  </title>
 <meta charset="utf-8">
 <meta name="language" content="english">
@@ -23,7 +43,7 @@
 
     </head>
 
-<body>
+<body onload="startTime()">
  <div class="navbar navbar-inverse" id="hello"> 
 <div id="top1" class="container text-center">  <!-- topmost section containing heading-->
         <header> <h1>TINYUS </h1> </header>    
@@ -208,7 +228,14 @@
 
 
 
-          </section>  
+          </section>
+          
+          <div id="timerr" class="text-center">
+            <h2>ageofuniverse</h2>
+              
+              
+
+          </div>
           <footer>
 
  <div id="f1" class="col-lg-3 col-sm-12"> <h2>copyright</h2>  <!-- footer divided into 4 column-->
@@ -257,6 +284,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
 
 
 </body>
